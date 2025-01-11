@@ -6,7 +6,7 @@ const Sidebar = ({date, onChange}) => {
         <aside>
             <h1>PLANIFY</h1>
             <Calendar onChange={onChange} value={date}/>
-            <p>Selected Date: {date.toLocaleDateString()}</p>
+            <p>{date.toLocaleDateString()}</p>
         </aside>
     );
 }
