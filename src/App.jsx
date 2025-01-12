@@ -3,7 +3,7 @@ import Sidebar from './components/Sidebar.jsx'
 
 function App() {
   const [date, setDate] = useState(new Date());
-  const [events, setEvents] = useState([n]);
+  const [events, setEvents] = useState([]);
 
   const onChange = newDate => {
     setDate(newDate);
