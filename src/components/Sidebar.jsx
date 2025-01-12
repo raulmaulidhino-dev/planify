@@ -5,8 +5,8 @@ const Sidebar = ({date, onChange}) => {
     return(
         <aside>
             <h1>PLANIFY</h1>
-            <Calendar onChange={onChange} value={date}/>
-            <p>{date.toLocaleDateString()}</p>
+            <Calendar onChange={onChange} value={date} prev2Label="" next2Label="" calendarType="gregory" />
+            <p>{date.toDateString()}</p>
         </aside>
     );
 }
